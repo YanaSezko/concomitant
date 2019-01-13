@@ -1,0 +1,21 @@
+.b-properties {
+	background-color: #fff;
+	margin: 0;
+
+	&__list {
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		margin: 0 auto;
+		color: #888;
+		font-size: 13px;
+		text-align: center;
+		grid-gap: 20px;
+		padding: 40px 30px;
+	}
+
+	&__item h2 {
+		color: #81b300;
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,36 @@
+@import "blocks/social";
+@import "blocks/loginNav";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/siteNav";
+@import "blocks/slider";
+@import "blocks/properties";
+@import "blocks/projects";
+@import "blocks/footer";
+@import "blocks/copyrights";
+
+html,
+body {
+	min-height: 100%;
+	min-width: 960px;
+	font-family: "Georgia Regular", sans-serif;
+	color: #333;
+	background: #1f1f1f;
+}
+
+@font-face {
+	font-family: "Georgia Regular";
+	src: url(../fonts/Georgia_Regular.ttf);
+}
+
+.line-top {
+	height: 5px;
+	background: #81b300;
+}
+
+.container {
+	background: #fff;
+	height: 100%;
+	min-width: 960px;
+	margin: 0 auto;
+}
